@@ -25,7 +25,7 @@ $post = json_decode(yarzCurl($url, $post, false, $headers, true));
 if(isset($post->tweet_id))
 {
     echo "Tweet ID : ".$post->tweet_id."\n";
-	sleep(80);
+	sleep(60);
 } else {
 	die(print_r($post));
 }
